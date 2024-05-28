@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch</title>
+    <!--CDN Link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+   <div class="card-container">
+    <div class="container">
+        <div class="log-card">
+    <p class="heading">Welcome</p>
+    <p>We are happy to serve you</p>
+
+    <form action="home.html" method="post"> <!-- Add the action attribute with the value of "home.html" and method attribute with the value of "post" -->
+      <div class="input-group">
+          <p class="text">Email</p>
+          <input class="input" type="email" name="email" placeholder="Enter Email" required> <!-- Add the name attribute for email input -->
+          <p class="text">Password</p>
+          <input class="input" type="password" name="password" placeholder="Enter Password" required> <!-- Add the name attribute for password input -->
+      </div>
+
+      <div class="password-group">
+          <div class="checkbox-group">
+              <input type="checkbox">
+              <label class="label">Remember Me</label>
+          </div>
+              <a href="pass.html" class="forget-password">Forget Password</a> 
+      </div>
+
+      <button class="btn" type="submit">Sign In</button>
+    </form>
+
+    <p class="no-account">Don't Have an Account ?<a href="signup.html"> Sign Up</a></p>
+</div>
+    </div>
+</div> 
+</body>
+</html>
